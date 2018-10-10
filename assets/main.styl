@@ -1,0 +1,131 @@
+
+body {
+  width: 100%;
+  height: 100%
+  text-align: center
+  margin: 0 auto
+  font-family: Avenir, SansSerif
+  color: #292929
+}
+
+@media (min-width: 50em) {
+  .parallax {
+    /* The image used */
+    background-image: url("~assets/images/crema.jpg")
+
+    /* Set a specific height */
+    height: 100%
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+  }
+
+  .parallax-img {
+    display: none
+  }
+
+  .logo img {
+    top: 5%
+    left: 5%
+    position: fixed
+    width: 15em
+    z-index: 10
+  }
+}
+
+@media (max-width: 50em) and (orientation : landscape) {
+
+  .logo img {
+    top: 2%
+    left: 2%
+    position: fixed
+    width: 10em
+    z-index: 10
+  }
+
+  .parallax-img {
+    position: fixed
+    top: 0px
+    left: 0px
+    width: 100%
+    z-index: -1
+    overflow: hidden
+  }
+}
+
+@media (max-width: 50em) and (orientation: portrait){
+  .logo img {
+    width: 15em
+    z-index: 10
+  }
+
+  .parallax-img {
+    position: fixed
+    top: 0px
+    left: -50%
+    height: 100vh
+    z-index: -1
+  }
+}
+
+.block {
+  font-size: 1.2em
+  margin: 5em 0em 2em 0em
+  padding: 1em
+  background-color: white
+  opacity: 0.95
+}
+.logo {
+  padding-top: 2em
+}
+.header {
+  padding-top: 1em
+}
+.footer {
+  margin-top: 0.1em
+}
+.bold {
+  font-weight: bold
+}
+.small {
+  font-size: 0.7em
+}
+.big {
+  font-size: 1.5em
+  font-weight: bold
+}
+.fine {
+  font-size: 1.1em
+}
+.icon {
+  height: 2em
+  vertical-align: middle
+  margin: 5px
+}
+
+.link a {
+  color: #292929
+  font-size: 0.9em
+  font-style: normal
+  text-decoration: none
+
+  &:hover {
+    color: #000000
+    font-weight: bold
+  }
+}
+
+.flags {
+  position: absolute
+  top: 4px
+  left: 2px
+
+  & img {
+    height: 20px
+    width: 30px
+    cursor: pointer
+  }
+}

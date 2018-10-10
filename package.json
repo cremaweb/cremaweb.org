@@ -1,0 +1,23 @@
+{
+  "name": "cremaweb.org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@nuxtjs/redirect-module": "^0.1.0",
+    "basscss": "^8.0.10",
+    "basscss-background-colors": "^2.1.0",
+    "basscss-border-colors": "^2.1.0",
+    "basscss-colors": "^2.2.0",
+    "basscss-forms": "^1.0.0",
+    "nuxt": "^2.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
