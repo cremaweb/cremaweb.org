@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+ — “8”
+script:
+ — echo “Deploy!!”
+install:
+ — npm install -g firebase-tools
+after_success:
+ — firebase deploy — project cremaweb-2a7b6 — token $FIREBASE_TOKEN.
