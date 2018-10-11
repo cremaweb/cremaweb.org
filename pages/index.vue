@@ -5,13 +5,13 @@
 <template>
   <div>
     <!-- <div class="flags">
-      <img src="~/assets/images/it.jpg" @click="setLang('it')"/>
-      <img src="~/assets/images/en.jpg" @click="setLang('en')"/>
+      <img src="/it.jpg" @click="setLang('it')"/>
+      <img src="/en.jpg" @click="setLang('en')"/>
     </div> -->
-    <img class="parallax-img" src="~/assets/images/crema.jpg" />
+    <img class="parallax-img" src="/crema.jpg" />
     <div class="parallax">
       <section class="logo">
-        <img src="~/assets/images/cremaweb.png">
+        <img src="/cremaweb.png">
       </section>
       <section class="block header">
         <div class="fine">Sei uno</div>
@@ -45,11 +45,11 @@
         <!--</section>-->
         <!--<section class="block footer">-->
         <div class="small">Partecipa</div>
-        <div class="link"><img class="icon" alt="slack" src="~/assets/images/slack.png"><a target="_blank" href="https://join.slack.com/t/cremaweb/shared_invite/enQtMjU2NTM3ODAxMjM3LTE5ZTczMTUyMjQ2OGY4YzE0YTA4NDUxMTA0NDU5ZGQxYzA1ZWY4YTliNmY4ZTlkZjhhOTNjYzBkMWMzYjMyZTM"><span class="big">cremaweb.slack.com</span></a></div>
-        <!--<div class="link"><img class="icon" alt="github" src="~/assets/images/github.png"><a target="_blank" href="https://github.com/cremaweb"><span class="big">github.com/cremaweb</span></a></div>-->
+        <div class="link"><img class="icon" alt="slack" src="/slack.png"><a target="_blank" href="https://join.slack.com/t/cremaweb/shared_invite/enQtMjU2NTM3ODAxMjM3LTE5ZTczMTUyMjQ2OGY4YzE0YTA4NDUxMTA0NDU5ZGQxYzA1ZWY4YTliNmY4ZTlkZjhhOTNjYzBkMWMzYjMyZTM"><span class="big">cremaweb.slack.com</span></a></div>
+        <!--<div class="link"><img class="icon" alt="github" src="/github.png"><a target="_blank" href="https://github.com/cremaweb"><span class="big">github.com/cremaweb</span></a></div>-->
         <div class="small">Seguici</div>
-        <div class="link"><img class="icon" alt="twitter" src="~/assets/images/twitter.png"><a target="_blank" href="https://twitter.com/cremaweb"><span class="big">@cremaweb</span></a></div>
-        <div class="link"><img class="icon" alt="facebook" src="~/assets/images/facebook.png"><a target="_blank" href="https://www.facebook.com/cremawebcommunity"><span class="big">cremawebcommunity</span></a></div>
+        <div class="link"><img class="icon" alt="twitter" src="/twitter.png"><a target="_blank" href="https://twitter.com/cremaweb"><span class="big">@cremaweb</span></a></div>
+        <div class="link"><img class="icon" alt="facebook" src="/facebook.png"><a target="_blank" href="https://www.facebook.com/cremawebcommunity"><span class="big">cremawebcommunity</span></a></div>
       </section>
     </div>
   </div>
