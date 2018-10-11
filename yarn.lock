@@ -774,6 +774,13 @@
     string-width "^2.0.0"
     strip-ansi "^4.0.0"
 
+"@nuxtjs/google-analytics@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.0.2.tgz#75353143628fd7697b41eb5aa7da38a513394eca"
+  integrity sha512-NpDQI7w4jr93Ukh98n3d0BRDHhX7cDUi3W2E0CAU6t5wmC+Q6cwQMqcEl32tGJBQlPZYWSrBKIM0A413HpL3TA==
+  dependencies:
+    vue-analytics "^5.4.0"
+
 "@nuxtjs/opencollective@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/opencollective/-/opencollective-0.1.0.tgz#5dfb10b2148ce77e9590bca9b9ed6e71d2a500eb"
@@ -783,11 +790,6 @@
     consola "^1.4.3"
     esm "^3.0.79"
     node-fetch "^2.2.0"
-
-"@nuxtjs/redirect-module@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/redirect-module/-/redirect-module-0.1.0.tgz#4078d19ad92f028f3d066630105174c2968dbd25"
-  integrity sha512-KWVuX6hX4VaJgKRpm0EK7xGDfHHctWwgbxUMKJV+xe8X9tYa9DkCcDwHW8z7kU5Z4/c9gYSH1USLZRpjT8UmlA==
 
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
@@ -6336,6 +6338,11 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-analytics@^5.4.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.16.0.tgz#82e88703a0678cba076d51acacd6569bc8f7d54c"
+  integrity sha512-WOdI1Ot/Tq3xHIIu3a5hiLawMrQeHsgqwcvHdZb5CNV4IM3RWZ3rw1gCnsAGbSWGPQw88mjkY9wuG5CXmfsssA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.1"

@@ -1,12 +1,12 @@
 module.exports = {
-  // modules: [
-  //   ['@nuxtjs/redirect-module'],
-  // ],
+  modules: [
+    ['@nuxtjs/google-analytics'],
+  ],
+ 'google-analytics': {
+    id: 'UA-127332250-1'
+  },
   // serverMiddleware: [
   //   'redirect-ssl',
-  // ],
-  // redirect: [
-    // { from: '', to: '/it' }
   // ],
   head: {
     meta: [

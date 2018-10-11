@@ -10,7 +10,7 @@
     "generate": "nuxt generate"
   },
   "devDependencies": {
-    "@nuxtjs/redirect-module": "^0.1.0",
+    "@nuxtjs/google-analytics": "^2.0.2",
     "basscss": "^8.0.10",
     "basscss-background-colors": "^2.1.0",
     "basscss-border-colors": "^2.1.0",
