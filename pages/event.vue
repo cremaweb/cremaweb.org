@@ -83,11 +83,6 @@ export default {
       ],
       sponsors: [
         {
-          image: '/dflabs.png',
-          alt: 'DFLabs',
-          href: 'https://dflabs.com',
-        },
-        {
             image: '/esc.png',
             alt: 'ESC',
             href: 'https://esconsulting.it',
@@ -96,6 +91,11 @@ export default {
           image: '/nealis.png',
           alt: 'Nealis',
           href: 'https://nealis.it',
+        },
+        {
+            image: '/idigital3.png',
+            alt: 'iDigital3',
+            href: 'http://www.idigital3.com',
         },
       ],
       hosts: [
