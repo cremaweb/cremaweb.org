@@ -1278,6 +1278,11 @@ basscss-border@^4.0.2:
   resolved "https://registry.yarnpkg.com/basscss-border/-/basscss-border-4.0.2.tgz#14b4506329b90cb14abe5f4d3473e9fe9202df2e"
   integrity sha1-FLRQYym5DLFKvl9NNHPp/pIC3y4=
 
+basscss-btn@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/basscss-btn/-/basscss-btn-1.1.1.tgz#c42157f201bd95db9a251568c542e740b2a3d7bf"
+  integrity sha1-xCFX8gG9lduaJRVoxULnQLKj178=
+
 basscss-colors@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/basscss-colors/-/basscss-colors-2.2.0.tgz#dccb773e272efe45df4a480962c8bd88b6a6b3e1"
