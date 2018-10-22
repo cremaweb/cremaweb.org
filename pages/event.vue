@@ -6,20 +6,26 @@
 <section class="container">
   <div class="clearfix mxn2">
     <div class="sm-col sm-col-8 md-col-9 px2">
-      <a class="link" target="_blank" v-bind:href="event.link" v-for="event in events">
-        <div class='event'>
-          <p class="h2 bold">{{event.title}}</p>
-          <p class="h3">{{event.date}} - {{event.time}}</p>
-          <div class="flex mb2">
-            <img v-bind:src="event.image"
-              width="96" height="96"
-              class="flex-none mr2" />
-            <div class="eventdescription flex-auto">
-              <p class="m0">{{event.description}}</p>
+      <!--<a class="link" target="_blank" >-->
+        <div  v-for="event in events" class='event'>
+          <div class="clearfix">
+            <div class="date sm-col sm-col-2 md-col-3">
+              <p class="h5">{{event.date}} - {{event.time}}</p>
+              <img v-bind:src="event.image"
+                   width="100%" height="100%"
+                   class="flex-none mr2" />
+            </div>
+            <div class="content sm-col sm-col-10 md-col-9">
+              <p class="title h3 bold">{{event.title}}</p>
+              <div class="eventdescription">
+                <p class="m0">{{event.description}}</p>
+              </div>
+              <div class="mb1 register">
+                <a v-bind:href="event.link" target="_blank" class="btn btn-primary bg-red">Registrati</a>
+              </div>
             </div>
           </div>
         </div>
-      </a>
     </div>
     <sidebar></sidebar>
   </div>
@@ -36,11 +42,11 @@ export default {
     return {
       events: [
         {
-          title: 'IPFS',
+          title: 'IPFS, applicazioni web distribuite "backend-less"',
           date: '06 Novembre 2018',
           time: '19:30',
           image: '/ipfs.png',
-          description: 'Descrizione evento IPFS',
+          description: 'Conosceremo IPFS (Interplanetary File System) e vedremo come utilizzarlo nell\'ottica di costruire applicazioni web distribuite, che non necessitano di server tradizionali e che restituiscono il controllo agli utenti.',
           link: 'https://meetup.com/CremaWeb'
         },
       ],

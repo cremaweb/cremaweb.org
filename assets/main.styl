@@ -137,14 +137,13 @@ body {
 }
 
 .eventdescription {
-  padding: 1em
+  padding-left: 15px
 }
 
 .event{
   text-align: left
   border-radius: 4px
   box-shadow: 0 0 10px rgba(0,0,0,.095)
-  padding: 15px 20px
   margin-bottom: 20px
   box-sizing: border-box
   transition: transform 200ms cubic-bezier(.374,.019,.035,1.861),-webkit-transform 200ms cubic-bezier(.374,.019,.035,1.861)
@@ -157,4 +156,39 @@ body {
 .link {
   color: inherit
   text-decoration: none
+}
+
+.date {
+  text-align: center
+}
+
+.content{
+  padding-left: 15px
+}
+
+.content p.title {
+  margin-block-start: 14px
+  margin-block-end: 14px
+  text-align: center
+}
+
+.register {
+  text-align: center
+}
+
+@media (min-width: 50em) {
+  .event {
+    padding: 15px 20px
+  }
+
+  .register {
+    text-align: right
+    margin: 0
+  }
+}
+
+@media (max-width: 50em) {
+  .register {
+    margin: 15px !important
+  }
 }
