@@ -44,10 +44,10 @@ export default {
         {
           title: 'IPFS, applicazioni web distribuite "backend-less"',
           date: '06 Novembre 2018',
-          time: '19:30',
+          time: '19:00',
           image: '/ipfs.png',
           description: 'Conosceremo IPFS (Interplanetary File System) e vedremo come utilizzarlo nell\'ottica di costruire applicazioni web distribuite, che non necessitano di server tradizionali e che restituiscono il controllo agli utenti.',
-          link: 'https://meetup.com/CremaWeb'
+          link: 'https://www.meetup.com/CremaWeb/events/255741621/'
         },
       ],
     }
