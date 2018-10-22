@@ -3,63 +3,33 @@
 </style>
 
 <template>
-  <div>
-    <!-- <div class="flags">
-      <img src="/it.jpg" @click="setLang('it')"/>
-      <img src="/en.jpg" @click="setLang('en')"/>
-    </div> -->
-    <img class="parallax-img" src="/crema.jpg" />
-    <div class="parallax">
-      <section class="logo">
-        <img src="/cremaweb.png">
-      </section>
-      <section class="block header">
-        <div class="fine">Sei uno</div>
-        <div class="big">Sviluppatore</div>
-        <div class="small">uno</div>
-        <div class="big">Studente</div>
-        <div class="small">o un'</div>
-        <div class="big">Azienda</div>
-        <div class="small">?</div>
-      </section>
-      <section class="block">
-        <div class="small">ma, soprattutto,<span class="bold"> appassionato</span> di</div>
-        <div class="big">Web & Technology ♥︎</div>
-      </section>
-      <section class="block">
-        <div class="small">Vivi in zona</div>
-        <div class="big">Crema (CR)</div>
-        <div class="small">?</div>
-      </section>
-      <section class="block">
-        <div class="small">Ti piacerebbe</div>
-        <div class="big">incontrare</div>
-        <div class="big">discutere</div>
-        <div class="big">condividere conoscenze</div>
-        <div class="fine">con persone<span class="bold"> come te</span>?</div>
-      </section>
-      <section class="block">
-        <div class="fine">Unisciti alla nostra<span style="font-weight: bold"> community</span></div>
-        <div class="fine"><span class="bold">Eventi</span> e altre informazioni molto presto...</div>
-        <div>&nbsp;</div>
-        <!--</section>-->
-        <!--<section class="block footer">-->
-        <div class="small">Partecipa</div>
-        <div class="link"><img class="icon" alt="slack" src="/slack.png"><a target="_blank" href="https://join.slack.com/t/cremaweb/shared_invite/enQtMjU2NTM3ODAxMjM3LTE5ZTczMTUyMjQ2OGY4YzE0YTA4NDUxMTA0NDU5ZGQxYzA1ZWY4YTliNmY4ZTlkZjhhOTNjYzBkMWMzYjMyZTM"><span class="big">cremaweb.slack.com</span></a></div>
-        <!--<div class="link"><img class="icon" alt="github" src="/github.png"><a target="_blank" href="https://github.com/cremaweb"><span class="big">github.com/cremaweb</span></a></div>-->
-        <div class="small">Seguici</div>
-        <div class="link"><img class="icon" alt="twitter" src="/twitter.png"><a target="_blank" href="https://twitter.com/cremaweb"><span class="big">@cremaweb</span></a></div>
-        <div class="link"><img class="icon" alt="facebook" src="/facebook.png"><a target="_blank" href="https://www.facebook.com/cremawebcommunity"><span class="big">cremawebcommunity</span></a></div>
-      </section>
+<section class="container">
+    <div class="mxn2">
+        <div class="sm-col sm-col-8 md-col-9 px2">
+            <p class="h2">
+                Siamo un gruppo di professionisti, studenti e appassionati del mondo IT.
+            </p>
+            <p class="h3">
+                Organizziamo questo Meetup in Crema (CR) per incontrarci, discutere e condividere informazioni sui temi più svariati relativi a tecnologie Web, best practice di sviluppo, project management, startup e imprenditorialità.
+                Se sei interessato a questi argomenti e vuoi entrare in contatto con altri professionisti come te, questo gruppo fa al caso tuo.
+            </p>
+            <hr>
+            <p class="h5">
+                CremaWeb è nato come progetto senza scopo di lucro, organizziamo e portiamo avanti le nostre attività con il contributo volontario della community.
+            </p>
+        </div>
+        <sidebar></sidebar>
     </div>
-  </div>
+</section>
 </template>
 
 <script>
 
+import Sidebar from "./sidebar";
 export default {
   name: 'index',
-  data () {
+    components: {Sidebar},
+    data () {
     return {
     }
   },
