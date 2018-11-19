@@ -12,7 +12,7 @@
       <section class="nav">
         <div class="mb1">
           <a href="/" class="h2 btn">Chi Siamo</a>
-          <a href="/event" class="h2 btn">Eventi</a>
+          <a href="/events" class="h2 btn">Eventi</a>
         </div>
       </section>
     </div>

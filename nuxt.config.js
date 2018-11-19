@@ -1,6 +1,7 @@
 module.exports = {
   modules: [
     ['@nuxtjs/google-analytics'],
+    ['@nuxtjs/moment', ['it']],
   ],
  'google-analytics': {
     id: 'UA-127332250-1'
@@ -39,10 +40,10 @@ module.exports = {
     '~/assets/main.styl',
     'basscss/css/basscss.min.css',
     'basscss-colors/css/colors.css',
-    'basscss-background-colors/css/background-colors.css',
     'basscss-border-colors/css/border-colors.css',
     'basscss-btn/css/btn.css',
     'basscss-btn-primary/css/btn-primary.css',
+    'basscss-background-colors/css/background-colors.css',
     'basscss-typography/css/typography.css',
     'basscss-type-scale/css/type-scale.css',
     // 'basscss-forms/index.css',
