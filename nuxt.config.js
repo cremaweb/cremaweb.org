@@ -1,7 +1,7 @@
 module.exports = {
   modules: [
     ['@nuxtjs/google-analytics'],
-    ['@nuxtjs/moment', ['it']],
+    ['@nuxtjs/moment'],
   ],
  'google-analytics': {
     id: 'UA-127332250-1'
