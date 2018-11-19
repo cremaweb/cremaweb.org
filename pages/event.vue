@@ -16,7 +16,7 @@
       <p class="m0">{{description}}</p>
     </div>
     <div class="mb1 register">
-      <a v-bind:href="link" target="_blank" class="btn btn-primary" v-bind:class="pastClass">{{action}}</a>
+      <a v-bind:href="link" target="_blank" class="btn btn-primary" v-bind:class="pastClass">{{nowToAction}}</a>
     </div>
   </div>
 </div>
@@ -39,12 +39,10 @@ export default {
   data () {
       return {
         past: false,
-        action: '',
       }
   },
-  mounted () {
+  created () {
       this.past = this.date < moment().format('DD/MM/YYYY');
-      this.action = this.past ? 'Vedi su Meetup' : 'Registrati';
   },
   computed: {
       formatDate() {
@@ -54,6 +52,9 @@ export default {
           return {
               'bg-gray': this.past
           }
+      },
+      nowToAction() {
+          return this.past ? 'Vedi su Meetup' : 'Registrati';
       }
   },
 }
