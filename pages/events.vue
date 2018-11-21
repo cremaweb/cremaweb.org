@@ -31,10 +31,7 @@ export default {
             date: '2018-12-12',
             time: '19:00',
             image: '/jwt.png',
-            description: 'Parleremo di JWT (Json Web Token), un nuovo standard che permette al server di identificare un utente, in modo indipendente dalla provenienza delle richieste.\n' +
-                'Il protocollo JWT non richiede accessi al file system, garantendo performance e scalabilità;\n' +
-                'garantisce l\'autenticazione da molteplici dispositivi;\n' +
-                'aumenta la sicurezza delle comunicazioni client/server.',
+            description: 'Parleremo di JWT (Json Web Token), un nuovo standard che permette al server di identificare un utente, in modo indipendente dalla provenienza delle richieste. Il protocollo JWT non richiede accessi al file system, garantendo performance e scalabilità; garantisce l\'autenticazione da molteplici dispositivi; aumenta la sicurezza delle comunicazioni client/server.',
             link: 'https://www.meetup.com/CremaWeb/events/256598659/',
         },
         {
