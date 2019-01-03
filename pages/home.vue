@@ -25,9 +25,9 @@
 
 <script>
 
-import Sidebar from "./sidebar";
+import Sidebar from "../components/sidebar"
 export default {
-  name: 'index',
+  name: 'home',
     components: {Sidebar},
     data () {
     return {

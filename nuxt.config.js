@@ -48,7 +48,8 @@ module.exports = {
     'basscss-type-scale/css/type-scale.css',
     // 'basscss-forms/index.css',
   ],
-  // router: {
-  //   base: ''
-  // }
+  router: {
+    // base: '',
+    middleware: 'index',
+  }
 }
