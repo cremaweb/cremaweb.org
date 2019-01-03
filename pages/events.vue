@@ -27,6 +27,17 @@ export default {
     return {
       events: [
         {
+            title: 'Serverless feat. end-to-end testing',
+            date: '2019-01-23',
+            time: '18:30',
+            image: '/serverless-e2e.png',
+            description: `Con i nostri migliori auguri di Buon Anno, annunciamo il nostro primo meetup del 2019!
+Ci concentreremo su 2 argomenti:
+Alessandro Bellanda ci parlerà di sviluppo Serverless (AWS Lambda) mentre Enrico Fasoli di strumenti per l’end-to-end testing (Cypress.io)
+Daremo alla presentazione un taglio molto pratico, mostrando l’uso reale di queste tecnologie e vedendo come possono essere integrate.`,
+            link: 'https://www.meetup.com/CremaWeb/events/257746412/',
+        },
+        {
             title: 'JWT (JSON Web Token)\n',
             date: '2018-12-12',
             time: '19:00',
