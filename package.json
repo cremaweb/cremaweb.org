@@ -20,7 +20,7 @@
     "basscss-forms": "^1.0.0",
     "basscss-type-scale": "^1.0.6",
     "basscss-typography": "^3.0.4",
-    "nuxt": "^2.1.0",
+    "nuxt": "^2.3.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
   },
