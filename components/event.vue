@@ -3,23 +3,26 @@
 </style>
 
 <template>
-<div class="clearfix">
-  <div class="date sm-col sm-col-2 md-col-3">
-    <p class="h5">{{formatDate}} - {{event.time}}</p>
-    <img v-bind:src="event.image"
+<div class="flex flex-wrap p1">
+  <div class="col-12 md-col-4">
+    <div class="date h5">{{formatDate}} - {{event.time}}</div>
+    <div>
+      <img v-bind:src="event.image"
          width="100%"
          height="100%"
          class="flex-none mr2" />
-  </div>
-  <div class="content sm-col sm-col-10 md-col-9">
-    <p class="title h3 bold">{{event.title}}</p>
-    <div class="eventdescription">
-      <p class="m0">{{event.description}}</p>
-    </div>
-    <div class="mb1 register">
-      <a v-bind:href="event.link" target="_blank" class="btn btn-primary" :class="{'bg-gray': this.past}">{{nowToAction}}</a>
     </div>
   </div>
+  <div class="col-12 md-col-8 flex flex-wrap">
+    <div class="col-12 title h3 bold p05">{{event.title}}</div>
+    <div class="col-12 justify p05">
+      {{event.description}}
+    </div>
+    <div class="col-12 pt1 register white ">
+      <a v-bind:href="event.link" target="_blank" class="h4 btn p04 px06 shadow rounded" :class="{'bg-gray': this.past, 'bg-blue': !this.past }">{{ nowToAction }}</a>
+    </div>
+  </div>
+
 </div>
 </template>
 
@@ -36,14 +39,14 @@ export default {
     return {}
   },
   computed: {
-    currentDate () {
+    eventDate () {
       return moment(this.event.date, 'YYYY-MM-DD')
     },
     formatDate () {
-      return this.currentDate.format('D MMMM YYYY')
+      return this.eventDate.format('D MMMM YYYY')
     },
     past () {
-      return moment().isAfter(this.currentDate)
+      return moment(moment().format('YYYY-MM-DD')).isAfter(this.eventDate)
     },
     nowToAction () {
       return this.past ? 'Vedi su Meetup' : 'Registrati'

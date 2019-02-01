@@ -3,20 +3,20 @@
 </style>
 
 <template>
-    <div class="sm-col sm-col-4 md-col-3 px2 sm-show">
-        <p class="h3">Join Us:</p>
-        <ul class="list-reset">
-            <li v-for="contact in contacts"><a class="link" target="_blank" v-bind:href="contact.href"><img class="icon" v-bind:alt="contact.alt" v-bind:src="contact.image"><span>{{contact.title}}</span></a></li>
-        </ul>
-        <p class="h3">Sponsored By:</p>
-        <ul class="list-reset">
-            <li v-for="sponsor in sponsors"><a class="link"target="_blank" v-bind:href="sponsor.href"><img class="icon2" v-bind:alt="sponsor.alt" v-bind:src="sponsor.image"></a></li>
-        </ul>
-        <p class="h3" >Hosted By:</p>
-        <ul class="list-reset">
-            <li v-for="host in hosts"><a class="link" target="_blank" v-bind:href="host.href"><img class="icon2" v-bind:alt="host.alt" v-bind:src="host.image"></a></li>
-        </ul>
-    </div>
+  <div class="px1">
+    <p class="h3">Join Us:</p>
+    <ul class="list-reset">
+        <li v-for="contact in contacts"><a class="link" target="_blank" v-bind:href="contact.href"><img class="icon" v-bind:alt="contact.alt" v-bind:src="contact.image"><span>{{contact.title}}</span></a></li>
+    </ul>
+    <p class="h3">Sponsored By:</p>
+    <ul class="list-reset">
+        <li v-for="sponsor in sponsors"><a class="link"target="_blank" v-bind:href="sponsor.href"><img class="icon2" v-bind:alt="sponsor.alt" v-bind:src="sponsor.image"></a></li>
+    </ul>
+    <p class="h3" >Hosted By:</p>
+    <ul class="list-reset">
+        <li v-for="host in hosts"><a class="link" target="_blank" v-bind:href="host.href"><img class="icon2" v-bind:alt="host.alt" v-bind:src="host.image"></a></li>
+    </ul>
+  </div>
 </template>
 
 <script>

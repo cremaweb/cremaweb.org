@@ -1,3 +1,10 @@
+@import 'basscss/css/basscss.min.css'
+@import 'basscss-colors/css/colors.css'
+@import 'basscss-border-colors/css/border-colors.css'
+@import 'basscss-background-colors/css/background-colors.css'
+@import 'basscss-typography/css/typography.css'
+@import 'basscss-type-scale/css/type-scale.css'
+
 body {
   width: 100%;
   height: 100%
@@ -142,19 +149,131 @@ body {
 .nav {
   margin-right: auto
   margin-left: auto
-  background-color: #000
+  background-color: #111
   color: #fff
 }
 
-.container {
-  max-width: 1024px
-  margin-left: auto
-  margin-right: auto
-  padding: 2em
+
+//text
+a
+  text-decoration: none
+  color: inhert
+  &:hover
+    color: inhert
+  &:visited
+    color: inherit
+
+//button
+.rounded {
+  border-radius: 3px;
 }
 
-.eventdescription {
-  padding-left: 15px
+// .shadow {
+//   box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1)
+// }
+
+.shadow {
+  box-shadow: 1px 2px 1px rgba(12,13,14,0.1), 1px 1px 6px rgba(59,64,69,0.1)
+}
+
+.btn {
+  cursor: pointer
+  // display: block
+}
+
+.btn:hover {
+  filter: brightness(1.1)
+}
+
+.btn:active {
+  filter: brightness(0.9)
+}
+
+.btn:disabled,
+.btn.is-disabled {
+  opacity: .5
+}
+
+$baseSize= 1em
+$range= 1..5
+
+for $num in $range
+  .m{$num}
+    margin $num * $baseSize
+
+  .mt{$num}
+    margin-top $num * $baseSize
+
+  .mb{$num}
+    margin-bottom $num * $baseSize
+
+  .ml{$num}
+    margin-left $num * $baseSize
+
+  .mr{$num}
+    margin-right $num * $baseSize
+
+  .mx{$num}
+    margin-left $num * $baseSize
+    margin-right $num * $baseSize
+
+  .my{$num}
+    margin-top $num * $baseSize
+    margin-bottom $num * $baseSize
+
+for $num in $range
+  .p{$num}
+    padding $num * $baseSize
+
+  .pt{$num}
+    padding-top $num * $baseSize
+
+  .pb{$num}
+    padding-bottom $num * $baseSize
+
+  .pl{$num}
+    padding-left $num * $baseSize
+
+  .pr{$num}
+    padding-right $num * $baseSize
+
+  .px{$num}
+    padding-left $num * $baseSize
+    padding-right $num * $baseSize
+
+  .py{$num}
+    padding-top $num * $baseSize
+    padding-bottom $num * $baseSize
+
+$baseSize= 0.1em
+$range= 1..9
+
+for $num in $range
+  .p0{$num}
+    padding $num * $baseSize
+
+  .pt0{$num}
+    padding-top $num * $baseSize
+
+  .pb0{$num}
+    padding-bottom $num * $baseSize
+
+  .pl0{$num}
+    padding-left $num * $baseSize
+
+  .pr0{$num}
+    padding-right $num * $baseSize
+
+  .px0{$num}
+    padding-left $num * $baseSize
+    padding-right $num * $baseSize
+
+  .py0{$num}
+    padding-top $num * $baseSize
+    padding-bottom $num * $baseSize
+
+.container {
+  margin 0 auto
 }
 
 .event{

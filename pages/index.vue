@@ -3,26 +3,21 @@
 </style>
 
 <template>
-<section class="container">
-  <div class="clearfix mxn2">
-    <div class="sm-col sm-col-8 md-col-9 px2">
-      <!--<a class="link" target="_blank" >-->
-      <div v-for="event in events" class='event'>
-        <event :event="event"></event>
-      </div>
+  <div class="p1 justify-center">
+    <div v-for="(event, index) in events" :key="index" class='event'>
+      <event :event="event"></event>
     </div>
-    <sidebar></sidebar>
   </div>
-</section>
 </template>
 
 <script>
 
-import Sidebar from "../components/sidebar.vue"
 import Event from "../components/event.vue"
 export default {
   name: 'events',
-    components: {Sidebar, Event},
+    components: {
+      Event,
+    },
     data () {
     return {
       events: [

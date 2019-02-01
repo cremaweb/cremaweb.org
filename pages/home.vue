@@ -3,32 +3,26 @@
 </style>
 
 <template>
-<section class="container">
-    <div class="mxn2">
-        <div class="sm-col sm-col-8 md-col-9 px2">
-            <p class="h2">
-                Siamo un gruppo di professionisti, studenti e appassionati del mondo IT.
-            </p>
-            <p class="h3">
-                Organizziamo questo Meetup in Crema (CR) per incontrarci, discutere e condividere informazioni sui temi più svariati relativi a tecnologie Web, best practice di sviluppo, project management, startup e imprenditorialità.
-                Se sei interessato a questi argomenti e vuoi entrare in contatto con altri professionisti come te, questo gruppo fa al caso tuo.
-            </p>
-            <hr>
-            <p class="h5">
-                CremaWeb è nato come progetto senza scopo di lucro, organizziamo e portiamo avanti le nostre attività con il contributo volontario della community.
-            </p>
-        </div>
-        <sidebar></sidebar>
+  <div class=" px2 left-align">
+    <div class="py1 h2 left-align">
+        Siamo un gruppo di professionisti, studenti e appassionati del mondo IT.
     </div>
-</section>
+    <div class="py1 h3 ">
+        Organizziamo questo Meetup in Crema (CR) per incontrarci, discutere e condividere informazioni sui temi più svariati relativi a tecnologie Web, best practice di sviluppo, project management, startup e imprenditorialità.
+        Se sei interessato a questi argomenti e vuoi entrare in contatto con altri professionisti come te, questo gruppo fa al caso tuo.
+    </div>
+    <hr>
+    <div class="py1 h4 ">
+        CremaWeb è nato come progetto senza scopo di lucro, organizziamo e portiamo avanti le nostre attività con il contributo volontario della community.
+    </div>
+  </div>
 </template>
 
 <script>
 
-import Sidebar from "../components/sidebar"
 export default {
   name: 'home',
-    components: {Sidebar},
+    components: {},
     data () {
     return {
     }
