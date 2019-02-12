@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'NextCloud',
+          date: '2019-02-27',
+          time: '18:30',
+          image: '/nextcloud.png',
+          description: `Il nostro prossimo appuntamento di #CremaWeb sarà dedicato a NextCloud. Paolo Finardi ci parlerà di questa piattaforma Open Source e perchè può essere interessante come strumento aziendale. Verranno mostrate e descritte le principali caratteristiche confrontandolo con quelle di alcuni dei suoi principali competitor.`,
+          link: 'https://www.meetup.com/CremaWeb/events/258904615/',
+        },
+        {
             title: 'Serverless feat. end-to-end testing',
             date: '2019-01-23',
             time: '18:30',
