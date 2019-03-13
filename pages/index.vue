@@ -25,7 +25,7 @@ export default {
           title: 'Remote Working: Opportunità e Pericoli',
           date: '2019-03-27',
           time: '18:30',
-          image: '/remoteworkin.png',
+          image: '/remoteworking.png',
           description: `Sempre più professionisti, sviluppatori e non, richiedono il remote-working per collaborare con le aziende. Nel prossimo evento di #CremaWeb, Massimo Riva ci parlerà di quali sono i benefici e le sfide da affrontare!`,
           link: 'https://www.meetup.com/CremaWeb/events/259709974/',
         },
