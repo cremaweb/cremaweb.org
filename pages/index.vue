@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'Vue.js',
+          date: '2019-05-16',
+          time: '18:30',
+          image: '/vuejs.png',
+          description: `Le tecnologie di sviluppo Web lato front-end cambiano molto velocemente. Non sono poi così lontani i tempi in cui si parlava di jQuery, ExtJS, Angular ecc. Nel prossimo evento di #CremaWeb, Cassiano Vailati ci parlerà di Vue.js, una libreria javascript, reactive, per lo sviluppo di componenti Web e Single Page Application.`,
+          link: 'https://www.meetup.com/CremaWeb/events/260735308/',
+        },
+        {
           title: 'Remote Working: Opportunità e Pericoli',
           date: '2019-03-27',
           time: '18:30',
