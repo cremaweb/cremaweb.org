@@ -1,29 +1,29 @@
-<style lang="stylus">
-</style>
-
 <template>
   <div id="body">
-    <div class="parallax">
+    <div class="bg-crema bg-bottom bg-no-repeat bg-cover bg-fixed">
       <section class="logo">
           <img src="/cremaweb.png">
       </section>
-      <section class="block header">
-      </section>
-      <section class="nav flex flex-wrap h2 justify-center p02">
-        <a href="/home" class="btn px2 py02 white"><div>Chi Siamo</div></a>
-        <a href="/events" class="btn px2 py02 white"><div>Eventi</div></a>
-        <a href="/newsletter" class="btn px2 py02 white bg-blue rounded"><div>Iscriviti alla Newsletter</div></a>
+      <section class="block header ">
       </section>
     </div>
+    <section class="text-white bg-black flex flex-wrap h2 justify-center p02 text-2xl">
+      <nuxt-link class="md:pl-1 pt-1" to="/home"><div class="cursor-pointer px2 py-1">Chi Siamo</div></nuxt-link>
+      <nuxt-link class="md:pl-1 pt-1" to="/events"><div class="cursor-pointer px2 py-1">Eventi</div></nuxt-link>
+      <a class="md:pl-1 pt-1" href="https://join.slack.com/t/cremaweb/shared_invite/enQtMjU2NTM3ODAxMjM3LTE5ZTczMTUyMjQ2OGY4YzE0YTA4NDUxMTA0NDU5ZGQxYzA1ZWY4YTliNmY4ZTlkZjhhOTNjYzBkMWMzYjMyZTM" target="_blank">
+        <div class="cursor-pointer px2 py-1 bg-red-500 rounded"><span class="italic">Join us on</span>  Slack</div>
+      </a>
+      <nuxt-link class="md:pl-1 pt-1" to="/newsletter"><div class="cursor-pointer px2 py-1 bg-blue-500 rounded">Iscriviti alla Newsletter</div></nuxt-link>
+    </section>
     <div class="flex flex-wrap pb3">
-      <div class="col-12 md-col-2"></div>
-      <div class="col-12 md-col-6 ">
+      <div class="w-full md:w-2/12"></div>
+      <div class="w-full md:w-6/12 ">
         <nuxt/>
       </div>
-      <div class="col-12 md-col-2">
+      <div class="w-full md:w-2/12">
         <sidebar></sidebar>
       </div>
-      <div class="col-12 md-col-2"></div>
+      <div class="w-full md:w-2/12"></div>
     </div>
   </div>
 </template>
@@ -38,3 +38,10 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="stylus">
+  .bg-crema {
+    background-image: url('/crema.jpg')
+    height 70vh
+  }
+</style>

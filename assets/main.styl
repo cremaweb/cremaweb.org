@@ -1,9 +1,20 @@
-@import 'basscss/css/basscss-cp.css';
-@import 'basscss-colors/css/colors.css'
-@import 'basscss-border-colors/css/border-colors.css'
-@import 'basscss-background-colors/css/background-colors.css'
-@import 'basscss-typography/css/typography.css'
-@import 'basscss-type-scale/css/type-scale.css'
+@tailwind base
+
+* {
+  box-sizing border-box
+}
+
+html, body {}
+
+body {
+  margin: 0
+  font-family: Avenir, Verdana, Geneva, Tahoma, sans-serif
+}
+
+div[class] {
+  // border: 1px solid red
+}
+
 
 body {
   width: 100%;
@@ -15,27 +26,8 @@ body {
   background-color: #ffffff
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("/crema.jpg")
-
-    /* Set a specific height */
-    height: 100%
-
-    /* Create the parallax scrolling effect */
-    background-repeat: no-repeat
-    background-size: cover
-  }
 
 @media (min-width: 50em) {
-
-  .parallax {
-    background-position: center
-  }
-
-  .parallax-img {
-    display: none
-  }
 
   .logo img {
     top: 5%
@@ -50,41 +42,12 @@ body {
   }
 }
 
-@media (max-width: 50em) and (orientation : landscape) {
-
-  .logo img {
-    top: 2%
-    left: 2%
-    position: absolute
-    width: 10em
-    z-index: 10
-  }
-
-  .parallax-img {
-    background-image: url("/crema.png")
-    position: fixed
-    top: 0px
-    left: 0px
-    width: 100%
-    z-index: -1
-    overflow: hidden
-  }
-}
-
-@media (max-width: 50em) and (orientation: portrait){
-  .logo img {
-    width: 15em
-    z-index: 10
-  }
-
-  .parallax-img {
-    background-image: url("/crema.png")
-    position: fixed
-    top: 0px
-    left: -50%
-    height: 100vh
-    z-index: -1
-  }
+.logo img {
+  top: 15%
+  left: 15%
+  position: absolute
+  width: 15em
+  z-index: 10
 }
 
 .block {
@@ -164,21 +127,12 @@ a
     color: inherit
 
 //button
-.rounded {
-  border-radius: 3px;
-}
-
-// .shadow {
-//   box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1)
-// }
-
 .shadow {
   box-shadow: 1px 2px 1px rgba(12,13,14,0.1), 1px 1px 6px rgba(59,64,69,0.1)
 }
 
 .btn {
   cursor: pointer
-  // display: block
 }
 
 .btn:hover {
@@ -328,3 +282,6 @@ for $num in $range
     margin: 15px !important
   }
 }
+
+@tailwind components
+@tailwind utilities

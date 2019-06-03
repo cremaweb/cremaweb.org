@@ -3,24 +3,18 @@
 </style>
 
 <template>
-  <div class="px1">
-    <p class="h3">Join Us:</p>
-    <ul class="list-reset">
-      <li v-for="contact in contacts"><a class="link" target="_blank" v-bind:href="contact.href">
-        <img class="icon" v-bind:alt="contact.alt" v-bind:src="contact.image"><span>{{contact.title}}</span></a>
-      </li>
+  <div class="p-4">
+    <p class="text-2xl pt-2">Join Us:</p>
+    <ul class="flex flex-wrap justify-center border-b pb-2">
+        <div v-for="(contact, index) in contacts" :key="index" class="w-full pt-3 flex justify-center"><a class="link flex items-center" target="_blank" v-bind:href="contact.href"><img class="icon" v-bind:alt="contact.alt" v-bind:src="contact.image"><span>{{contact.title}}</span></a></div>
     </ul>
-    <p class="h3">Sponsored By:</p>
-    <ul class="list-reset">
-      <li v-for="sponsor in sponsors"><a class="link" target="_blank" v-bind:href="sponsor.href">
-        <img class="icon2" v-bind:alt="sponsor.alt" v-bind:src="sponsor.image"></a>
-      </li>
+    <p class="text-2xl pt-2">Sponsored By:</p>
+    <ul class="flex flex-wrap justify-center border-b pb-2">
+        <div v-for="(sponsor, index) in sponsors" :key="index" class="w-full pt-3 flex justify-center"><a class="link flex items-center" target="_blank" v-bind:href="sponsor.href"><img class="icon2" v-bind:alt="sponsor.alt" v-bind:src="sponsor.image"></a></div>
     </ul>
-    <p class="h3">Hosted By:</p>
-    <ul class="list-reset">
-      <li v-for="host in hosts"><a class="link" target="_blank" v-bind:href="host.href">
-        <img class="icon2" v-bind:alt="host.alt" v-bind:src="host.image"></a>
-      </li>
+    <p class="text-2xl pt-2" >Hosted By:</p>
+    <ul class="flex flex-wrap justify-center pb-2">
+        <div v-for="(host, index) in hosts" :key="index" class="w-full pt-3 flex justify-center"><a class="link flex items-center" target="_blank" v-bind:href="host.href"><img class="icon2" v-bind:alt="host.alt" v-bind:src="host.image"></a></div>
     </ul>
   </div>
 </template>

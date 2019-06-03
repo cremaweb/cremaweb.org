@@ -3,8 +3,8 @@
 </style>
 
 <template>
-<div class="flex flex-wrap p1">
-  <div class="col-12 md-col-4">
+<div class="flex flex-wrap p-1">
+  <div class="w-full md:w-4/12">
     <div class="date h5">{{formatDate}} - {{event.time}}</div>
     <div>
       <img v-bind:src="event.image"
@@ -13,13 +13,13 @@
          class="flex-none mr2" />
     </div>
   </div>
-  <div class="col-12 md-col-8 flex flex-wrap">
-    <div class="col-12 title h3 bold p05">{{event.title}}</div>
-    <div class="col-12 justify p05">
+  <div class="w-full md:w-8/12 flex flex-wrap">
+    <div class="w-full title text-2xl bold p05">{{event.title}}</div>
+    <div class="w-full justify p05">
       {{event.description}}
     </div>
-    <div class="col-12 pt1 register white ">
-      <a v-bind:href="event.link" target="_blank" class="h4 btn p04 px06 shadow rounded" :class="{'bg-gray': this.past, 'bg-blue': !this.past }">{{ nowToAction }}</a>
+    <div class="w-full pt1 register white ">
+      <a v-bind:href="event.link" target="_blank" class="h4 btn p04 px06 shadow rounded" :class="{'bg-grey': this.past, 'bg-blue': !this.past }">{{ nowToAction }}</a>
     </div>
   </div>
 
