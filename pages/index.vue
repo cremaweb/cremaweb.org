@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'Docker',
+          date: '2019-06-20',
+          time: '18:30',
+          image: '/docker.png',
+          description: `Nel nostro primo meetup estivo ☀️di #CremaWeb, Guido Sangiovanni ci parlerà di Docker: un’infrastruttura per virtualizzare i servizi delle proprie Web Application sfruttando il concetto di Container per semplificarne lo sviluppo, la gestione, il rilascio e la stabilità.`,
+          link: 'https://www.meetup.com/CremaWeb/events/262018721/',
+        },
+        {
           title: 'Vue.js',
           date: '2019-05-16',
           time: '18:30',
