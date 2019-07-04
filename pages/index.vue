@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'Advanced: Vue & React',
+          date: '2019-07-17',
+          time: '18:30',
+          image: '/adv-vue-react.png',
+          description: `Nel nostro ultimo appuntamento di #CremaWeb, prima della pausa estiva ☀️Enrico Fasoli ci farà fare un viaggio nei dettagli delle librerie Vue.js e React.js e nei loro casi d’uso reali.`,
+          link: 'https://www.meetup.com/CremaWeb/events/262848966/',
+        },
+        {
           title: 'Docker',
           date: '2019-06-20',
           time: '18:30',
