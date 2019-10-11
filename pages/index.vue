@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'Lean Coffee',
+          date: '2019-10-24',
+          time: '18:30',
+          image: '/leancoffee.png',
+          description: `Ripartiamo con i #community #tech #meetup di #CremaWeb. Per questo evento proponiamo un nuovo format senza speaker, ma che rende la community protagonista degli argomenti trattati.`,
+          link: 'https://www.meetup.com/CremaWeb/events/265513060/',
+        },
+        {
           title: 'Advanced: Vue & React',
           date: '2019-07-17',
           time: '18:30',
