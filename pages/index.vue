@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'The Right Value',
+          date: '2019-11-21',
+          time: '18:30',
+          image: '/the-right-value.png',
+          description: `Come determinare il giusto valore delle proprie attività? Come trasformare questo valore in un prezzo accettabile da parte del committente? Nel prossimo evento di #CremaWeb, Massimo Riva ci parlerà dei diversi approcci di Agile Contracting!`,
+          link: 'https://www.meetup.com/CremaWeb/events/266360563/',
+        },
+        {
           title: 'Lean Coffee',
           date: '2019-10-24',
           time: '18:30',
