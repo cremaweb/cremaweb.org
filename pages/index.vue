@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'Lean Coffee',
+          date: '2019-12-18',
+          time: '19:00',
+          image: '/leancoffee.png',
+          description: `Visto il successo dell'ultimo Lean Coffee di #CremaWeb, riproponiamo questo format senza speaker per il nostro meetup di Dicembre. In questo evento è la community protagonista degli argomenti trattati.`,
+          link: 'https://www.meetup.com/CremaWeb/events/267061626/',
+        },
+        {
           title: 'The Right Value',
           date: '2019-11-21',
           time: '18:30',
