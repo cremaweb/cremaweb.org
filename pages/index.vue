@@ -22,6 +22,14 @@ export default {
     return {
       events: [
         {
+          title: 'GraphQL',
+          date: '2020-01-23',
+          time: '18:30',
+          image: '/graphql.png',
+          description: `Nel nostro primo appuntamento del 2020, Cassiano Vailati ci parlerà di GraphQL, un nuovo protocollo di comunicazione client-server proposto da Facebook`,
+          link: 'https://www.meetup.com/CremaWeb/events/267787496/',
+        },
+        {
           title: 'Lean Coffee',
           date: '2019-12-18',
           time: '19:00',
