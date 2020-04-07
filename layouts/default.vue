@@ -10,7 +10,7 @@
     <section class="text-white bg-black flex flex-wrap h2 justify-center p02 text-2xl">
       <nuxt-link class="md:pl-1 pt-1" to="/home"><div class="cursor-pointer px2 py-1">Chi Siamo</div></nuxt-link>
       <nuxt-link class="md:pl-1 pt-1" to="/events"><div class="cursor-pointer px2 py-1">Eventi</div></nuxt-link>
-      <a class="md:pl-1 pt-1" href="https://join.slack.com/t/cremaweb/shared_invite/enQtMjU2NTM3ODAxMjM3LTE5ZTczMTUyMjQ2OGY4YzE0YTA4NDUxMTA0NDU5ZGQxYzA1ZWY4YTliNmY4ZTlkZjhhOTNjYzBkMWMzYjMyZTM" target="_blank">
+      <a class="md:pl-1 pt-1" href="https://join.slack.com/t/cremaweb/shared_invite/zt-39unzead-vFLMaB0dk2oWmmi5ikygWw" target="_blank">
         <div class="cursor-pointer px2 py-1 bg-red-500 rounded"><span class="italic">Join us on</span>  Slack</div>
       </a>
       <nuxt-link class="md:pl-1 pt-1" to="/newsletter"><div class="cursor-pointer px2 py-1 bg-blue-500 rounded">Iscriviti alla Newsletter</div></nuxt-link>
