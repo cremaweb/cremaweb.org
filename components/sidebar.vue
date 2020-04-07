@@ -35,7 +35,7 @@
           {
             image: '/slack.png',
             alt: 'Slack',
-            href: 'https://join.slack.com/t/cremaweb/shared_invite/enQtMjU2NTM3ODAxMjM3LTE5ZTczMTUyMjQ2OGY4YzE0YTA4NDUxMTA0NDU5ZGQxYzA1ZWY4YTliNmY4ZTlkZjhhOTNjYzBkMWMzYjMyZTM',
+            href: 'https://join.slack.com/t/cremaweb/shared_invite/zt-39unzead-vFLMaB0dk2oWmmi5ikygWw',
             title: 'cremaweb.slack.com',
           },
           {
