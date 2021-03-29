@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8"
+  - "14"
 install:
   - "npm install -g firebase-tools"
 script: yarn install && npm run generate && firebase deploy --token "$FIREBASE_TOKEN"
