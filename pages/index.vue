@@ -22,6 +22,30 @@ export default {
     return {
       events: [
         {
+          title: 'Lean Coffee',
+          date: '2021-03-04',
+          time: '18:30',
+          image: '/leancoffee.png',
+          description: `Nell'attesa di poter riprendere gli incontri dal vivo, proponiamo Il nostro Lean Coffee mensile versione online.`,
+          link: 'https://www.meetup.com/CremaWeb/events/276513826/',
+        },
+        {
+          title: 'Lean Coffee',
+          date: '2021-02-04',
+          time: '18:30',
+          image: '/leancoffee.png',
+          description: `Dato il lungo periodo dall'ultimo evento di #CremaWeb, riproponiamo il nostro tipico Lean Coffee senza speaker per il nostro primo meetup remote.`,
+          link: 'https://www.meetup.com/CremaWeb/events/276104164/',
+        },
+        {
+          title: 'Lean Coffee',
+          date: '2020-02-20',
+          time: '19:00',
+          image: '/leancoffee.png',
+          description: `Visto il successo dei precedenti Lean Coffee di #CremaWeb, riproponiamo questo format senza speaker per il nostro meetup di Dicembre. In questo evento è la community protagonista degli argomenti trattati.`,
+          link: 'https://www.meetup.com/CremaWeb/events/268706742/',
+        },
+        {
           title: 'GraphQL',
           date: '2020-01-23',
           time: '18:30',
