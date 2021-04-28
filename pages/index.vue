@@ -23,6 +23,22 @@ export default {
       events: [
         {
           title: 'Lean Coffee',
+          date: '2021-05-13',
+          time: '18:30',
+          image: '/leancoffee.png',
+          description: `Nell'attesa di poter riprendere gli incontri dal vivo, proponiamo Il nostro Lean Coffee mensile versione online.`,
+          link: 'https://www.meetup.com/CremaWeb/events/277847741/',
+        },
+        {
+          title: 'Lean Coffee',
+          date: '2021-04-07',
+          time: '18:30',
+          image: '/leancoffee.png',
+          description: `Nell'attesa di poter riprendere gli incontri dal vivo, proponiamo Il nostro Lean Coffee mensile versione online.`,
+          link: 'https://www.meetup.com/CremaWeb/events/277084622/',
+        },
+        {
+          title: 'Lean Coffee',
           date: '2021-03-04',
           time: '18:30',
           image: '/leancoffee.png',
